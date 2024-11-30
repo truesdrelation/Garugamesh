@@ -9,7 +9,8 @@ public class Main {
         //input & print for practice problem 1
 
         int[] arr = {4, 3, 2, 8, 3};
-		System.out.println(PracticeProblems.countOccurrences(arr, 3));
+        int tim = 1;
+		System.out.println(PracticeProblems.countOccurrences(arr, tim));
         
         // input & print for practice problem 2 (I was getting an issue when printing the resut normally so I had to use java.util.Arrays to convert the result into a string)
 
@@ -19,7 +20,7 @@ public class Main {
         // input & print for practice problem 3
 
         double[][] grid = {
-        {0.5, 1.5, 2},
+        {0.5, 1.5, 4},
         {3.5, 4.5, 5.5}
         };
 		System.out.println(PracticeProblems.sumGrid(grid));
